@@ -11,21 +11,21 @@ This document details the external API endpoints provided by the [Quran Foundati
 ### List All Chapters (Surahs)
 Fetches the metadata for all 114 Surahs.
 - **Endpoint**: `GET /chapters`
-- **Used in**: [`SurahListView.swift`](https://github.com/teamhira/hira-swiftui/blob/main/Apps/iOSApp/Features/Quran/Views/SurahListView.swift)
+- **Used in**: [`SurahListView.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/SurahListView.swift)
 - **Query Parameters**:
   - `language` (string): ISO code (e.g., `en`, `id`) to localize chapter names.
 
 ### Chapter Information
 Retrieves historical background and revelation context.
 - **Endpoint**: `GET /chapters/{chapter_id}/info`
-- **Used in**: [`SurahInfoSheet.swift`](https://github.com/teamhira/hira-swiftui/blob/main/Apps/iOSApp/Features/Quran/Views/Subviews/SurahInfoSheet.swift)
+- **Used in**: [`SurahInfoSheet.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/SurahInfoSheet.swift)
 - **Query Parameters**:
   - `language` (string): Localization for the info text.
 
 ### Verses by Chapter
 Fetches verses for a specific chapter. Used for the primary reading list.
 - **Endpoint**: `GET /verses/by_chapter/{chapter_id}`
-- **Used in**: [`QuranAyahListView.swift`](https://github.com/teamhira/hira-swiftui/blob/main/Apps/iOSApp/Features/Quran/Views/Subviews/QuranAyahListView.swift)
+- **Used in**: [`QuranAyahListView.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/QuranAyahListView.swift)
 - **Query Parameters**:
   - `language` (string): General content language.
   - `words` (boolean): `true` to include word-by-word data (required for Tajweed and Word-Audio).
@@ -37,7 +37,7 @@ Fetches verses for a specific chapter. Used for the primary reading list.
 ### Verses by Page (Mushaf Mode)
 Fetches verses that appear on a specific physical page of the Madinah Mushaf.
 - **Endpoint**: `GET /verses/by_page/{page_number}`
-- **Used in**: [`QuranMushafView.swift`](https://github.com/teamhira/hira-swiftui/blob/main/Apps/iOSApp/Features/Quran/Views/Subviews/QuranMushafView.swift)
+- **Used in**: [`QuranMushafView.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/QuranMushafView.swift)
 - **Query Parameters**: Same as *Verses by Chapter*.
 
 ---
@@ -47,7 +47,7 @@ Fetches verses that appear on a specific physical page of the Madinah Mushaf.
 ### List All Juzs
 Provides the mapping of the 30 Juz divisions.
 - **Endpoint**: `GET /juzs`
-- **Used in**: [`QuranJuzListView.swift`](https://github.com/teamhira/hira-swiftui/blob/main/Apps/iOSApp/Features/Quran/Views/QuranJuzListView.swift)
+- **Used in**: [`QuranJuzListView.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/QuranJuzListView.swift)
 
 ---
 
@@ -56,7 +56,7 @@ Provides the mapping of the 30 Juz divisions.
 ### Available Languages
 Populates the language selection interface for documentation and UI.
 - **Endpoint**: `GET /resources/languages`
-- **Used in**: [`QuranLanguageSelector.swift`](https://github.com/teamhira/hira-swiftui/blob/main/Apps/iOSApp/Features/Quran/Views/Subviews/QuranLanguageSelector.swift)
+- **Used in**: [`QuranLanguageSelector.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/QuranLanguageSelector.swift)
 
 ### Translation Resources
 Lists available translations for a given language.
@@ -73,7 +73,7 @@ Lists available exegesis resources.
 ### Recitation Resources
 Lists available world-renowned reciters.
 - **Endpoint**: `GET /resources/recitations`
-- **Used in**: [`QuranResourceSelector.swift`](https://github.com/teamhira/hira-swiftui/blob/main/Apps/iOSApp/Features/Quran/Views/Subviews/QuranResourceSelector.swift)
+- **Used in**: [`QuranResourceSelector.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/QuranResourceSelector.swift)
 
 ---
 
@@ -82,7 +82,7 @@ Lists available world-renowned reciters.
 ### Chapter Audio Files
 Retrieves audio manifest with precise word-level and verse-level timestamps.
 - **Endpoint**: `GET /chapters/{chapter_id}/audio_files`
-- **Used in**: [`QuranViewModel.swift`](https://github.com/teamhira/hira-swiftui/blob/main/Apps/iOSApp/Features/Quran/QuranViewModel.swift) (Auto-scroll/Teleprompter logic).
+- **Used in**: [`QuranViewModel.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/QuranViewModel.swift) (Auto-scroll/Teleprompter logic).
 - **Query Parameters**:
   - `recitation_id` (int): The selected reciter's ID.
   - `segments` (boolean): `true` to include word-level timing (essential for word-level highlighting).
