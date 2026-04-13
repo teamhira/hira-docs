@@ -8,3 +8,6 @@ This folder contains all documentation related to API contracts and service comm
 - [authentication/](api/authentication/README.md) — Authentication flows and session management.
 - [errors/](api/errors/README.md) — Error standards and code catalogs.
 - [domains/](api/domains/README.md) — Service-specific endpoints based on business domains.
+
+## External Integrations
+- [Quran Foundation](api/external/quran-foundation.md) — External Quranic data, audio, and resource API.
