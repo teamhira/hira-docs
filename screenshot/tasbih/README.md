@@ -29,7 +29,7 @@ Users can personalize their Dhikr experience to match their specific rituals.
 - **Reordering & Editing**: Drag-and-drop sorting to prioritize specific recitations.
 <table>
   <tr>
-    <td><img src="tasbih-dzikir-check-list.md" alt="Dhikr Checklist Detail" width="250" /></td>
+    <td><img src="tasbih-dzikir-check-list.png" alt="Dhikr Checklist Detail" width="250" /></td>
     <td><img src="tasbih-dzikir-check-list-edit.png" alt="Edit Mode for Dhikr" width="250" /></td>
   </tr>
 </table>

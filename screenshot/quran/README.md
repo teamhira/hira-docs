@@ -15,6 +15,11 @@ The initial screen serves as the launchpad for Quran study.
     <td><img src="quran-history.png" alt="Quran History/Bookmarks" width="250" /></td>
     <td><img src="quran-bookmark.png" alt="Quran Bookmark Details" width="250" /></td>
   </tr>
+  <tr>
+    <td><img src="quran-search.png" alt="Global Search" width="250" /></td>
+    <td><img src="quran-daily.png" alt="Daily Ayah Inspiration" width="250" /></td>
+    <td></td>
+  </tr>
 </table>
 
 ### 2. Organizational Views
@@ -27,6 +32,11 @@ Users can navigate the Quran through traditional structures.
     <td><img src="quran-juz.png" alt="Juz Category View" width="250" /></td>
     <td><img src="quran-juz-surah-list.png" alt="Surah List Categories" width="250" /></td>
     <td><img src="quran-topic.png" alt="Topic Categorization" width="250" /></td>
+  </tr>
+  <tr>
+    <td><img src="quran-juz-surah-select-ayah.png" alt="Ayah Selection by Juz" width="250" /></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -62,6 +72,11 @@ A comprehensive audio suite for listening and memorization.
     <td><img src="quran-surah-detail-setting-audio.png" alt="Audio Settings Sheet" width="250" /></td>
     <td><img src="quran-surah-detail-setting-reciter.png" alt="Reciter Selection" width="250" /></td>
   </tr>
+  <tr>
+    <td><img src="quran-surah-detail-audio-expand.png" alt="Expanded Audio Controls" width="250" /></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 ### 2. Reading Preferences (Appearance)
@@ -71,7 +86,7 @@ Highly customizable UI to ensure a comfortable reading experience for all ages a
 <table>
   <tr>
     <td><img src="quran-surah-detail-setting-appearance.png" alt="Appearance Settings" width="250" /></td>
-    <td><img src="quran-surah-detail-setting-language.png" alt="Language/Local Selection" width="250" /></td>
+    <td><img src="quran-surah-detail-setting-select-language.png" alt="Language/Local Selection" width="250" /></td>
   </tr>
 </table>
 
