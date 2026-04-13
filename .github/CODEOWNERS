@@ -1,0 +1,27 @@
+# CODEOWNERS
+# This file defines individuals or teams that are responsible for maintaining documentation areas.
+
+# Architecture & Security
+/architecture/ @architecture-lead
+/architecture/security/ @security-lead
+
+# API Contracts
+/api/ @backend-lead
+
+# Platforms
+/platforms/ios/ @ios-lead
+/platforms/android/ @android-lead
+/platforms/web/ @web-lead
+/platforms/shared/ @platform-alignment-lead
+
+# Operations
+/operations/ @devops-lead
+
+# Governance, Onboarding, & QA
+/governance/ @documentation-owner
+/onboarding/ @documentation-owner
+/qa/ @qa-lead
+
+# Root level and templates
+/templates/ @documentation-owner
+/* @documentation-owner
