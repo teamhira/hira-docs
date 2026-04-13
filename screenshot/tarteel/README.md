@@ -8,16 +8,16 @@ The Tarteel module utilizes advanced audio analysis or recitation guidance to he
 The main entry point for the Tarteel experience.
 - **Featured Contests/Challenges**: Gamified recitation goals to encourage user participation.
 - **Library Access**: Navigate through available surahs and lessons optimized for Tarteel.
-![Main Tarteel Dashboard](tarteel.png)
+<img src="tarteel.png" alt="Main Tarteel Dashboard" width="400" />
 
 ### 2. Recitation Detail & Guidance
 The core focused-mode for active recitation.
 - **Guided Playback**: Integrated audio to demonstrate proper Tarteel recitation.
 - **Toggle Guidance**: Users can switch visual guidance or audio overlays on and off to test their proficiency.
 - **Real-time Feedback**: Visual indicators (where applicable) that respond to the user's recitation progress.
-![Tarteel Recitation Detail](tarteel-detail.png)
-![Guidance Mode Off](tarteel-detail-off.png)
-![Guidance Mode On](tarteel-detail-on.png)
+<img src="tarteel-detail.png" alt="Tarteel Recitation Detail" width="400" />
+<img src="tarteel-detail-off.png" alt="Guidance Mode Off" width="400" />
+<img src="tarteel-detail-on.png" alt="Guidance Mode On" width="400" />
 
 ## Educational Focus
 - **Pronunciation Accuracy**: Focused on the nuances of Tajweed and Tarteel.

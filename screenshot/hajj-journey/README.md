@@ -9,7 +9,7 @@ A visual timeline or checklist of the Hajj rituals and milestones.
 - **Ritual Tracking**: Step-by-step guidance through the essential acts of Hajj (e.g., Ihram, Tawaf, Sa'i, Arafat, Muzdalifah, Mina).
 - **Current Status Display**: Highlights the user's current ritual and provides preparation for the next.
 - **Location Context**: Information on key geographical locations associated with each step.
-![Main Hajj Journey Interface](hajj-journey.png)
+<img src="hajj-journey.png" alt="Main Hajj Journey Interface" width="400" />
 
 ## Educational & Spiritual Content
 - **Rulings & Adab**: Each step is accompanied by its respective Fiqh rulings and recommended spiritual intentions (Niyyah).

@@ -10,25 +10,25 @@ The core interface features a comprehensive overview of the user's spiritual sta
 - **Featured Quote/Ayah**: Rotating daily inspiration.
 - **Service Shortcuts**: Grid of core features (Quran, Hadith, Qibla, etc.).
 - **Reading Progress**: Indicators for the last read Ayah or current Khatam status.
-![Home Overview 1](home-1.png)
-![Home Overview 2](home-2.png)
+<img src="home-1.png" alt="Home Overview 1" width="400" />
+<img src="home-2.png" alt="Home Overview 2" width="400" />
 
 ### 2. Global Search
 A powerful search interface that indexes the entire Hira ecosystem.
 - **Interface**: A clean overlay with a search bar and categorized results.
 - **Recent Searches**: List of the user's latest queries for quick retrieval.
 - **Contextual Results**: Results are grouped by type (e.g., Quranic Ayahs, Hadith, Articles).
-![Search View 1](home-search-1.png)
-![Search View 2](home-search-2.png)
+<img src="home-search-1.png" alt="Search View 1" width="400" />
+<img src="home-search-2.png" alt="Search View 2" width="400" />
 
 ### 3. Feature Selection & Customization (More)
 When the user wants to explore beyond the primary shortcuts, the "More" screen provides a full catalog of Hira's capabilities.
 - **Categorized Services**: Features are grouped logically (e.g., Rituals, Progress, Knowledge).
 - **Edit Mode**: Users can customize their main dashboard grid by selecting their most-used features. This ensures a personalized experience catering to individual spiritual priorities.
-![Full Features 1](features-more-1.png)
-![Full Features 2](features-more-2.png)
-![Full Features 3](features-more-3.png)
-![Editing Launcher](features-more-edit.png)
+<img src="features-more-1.png" alt="Full Features 1" width="400" />
+<img src="features-more-2.png" alt="Full Features 2" width="400" />
+<img src="features-more-3.png" alt="Full Features 3" width="400" />
+<img src="features-more-edit.png" alt="Editing Launcher" width="400" />
 
 ## User Experience Design
 - **Visual Hierarchy**: Real-time prayer information is pinned at the top for maximum visibility.

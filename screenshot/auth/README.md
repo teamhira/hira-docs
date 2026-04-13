@@ -9,20 +9,20 @@ The login interface is optimized for speed and security. It supports email/passw
 - **Fields**: Email and Password with visibility toggles.
 - **Actions**: Login button, social login buttons, and a link to the registration flow.
 - **Security**: "Forgot Password?" link is prominently placed below the password field.
-![Login Screen](login.png)
+<img src="login.png" alt="Login Screen" width="400" />
 
 ### 2. Registration Screen
 The registration flow captures essential user information to create a new Hira account. 
 - **Fields**: Full Name, Email, and Password.
 - **Agreement**: Direct links to the Terms and Privacy Policy ensure legal compliance and user informed consent.
 - **Social Options**: Allows users to create an account directly using their social identities.
-![Registration Screen](register.png)
+<img src="register.png" alt="Registration Screen" width="400" />
 
 ### 3. Forgot Password
 A dedicated recovery screen for password resets.
 - **Process**: Users enter their registered email to receive a reset link or verification code.
 - **Simplicity**: Focuses solely on the recovery task to reduce user friction during a potentially stressful state.
-![Forgot Password](forgot-password.png)
+<img src="forgot-password.png" alt="Forgot Password" width="400" />
 
 ## Interaction Flow
 1. **Selection**: User chooses between Login or Register from the entry screen.

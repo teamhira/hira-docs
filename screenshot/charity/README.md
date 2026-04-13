@@ -9,14 +9,14 @@ A visually rich dashboard featuring current and urgent charity campaigns.
 - **Campaign Cards**: High-level summaries including the cause, target goal, and current progress.
 - **Urgent Badges**: Indicators for campaigns with high immediate needs.
 - **Featured Causes**: Pinned campaigns supported by the organization.
-![Charity Dashboard 1](charity-1.png)
-![Charity Dashboard 2](charity-2.png)
+<img src="charity-1.png" alt="Charity Dashboard 1" width="400" />
+<img src="charity-2.png" alt="Charity Dashboard 2" width="400" />
 
 ### 2. Campaign Search & Filtering
 A specialized search interface to help users find causes by theme, region, or urgency.
 - **Thematic Categories**: Quickly filter by categories like Education, Healthcare, or Orphan Support.
 - **Region-based Filtering**: Find campaigns supporting specific local or international communities.
-![Charity Search Interface](charity-search.png)
+<img src="charity-search.png" alt="Charity Search Interface" width="400" />
 
 ## Interaction Logic
 - **Progress Tracking**: Real-time visual bars showing how close a campaign is to its goal.
