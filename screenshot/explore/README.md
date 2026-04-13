@@ -9,15 +9,19 @@ A dynamic feed featuring high-quality spiritual media.
 - **Featured Articles & Media**: Visual cards for the latest Islamic articles, videos, or news.
 - **Community Highlights**: Showcases of trending campaigns or community achievements.
 - **Interest-Driven Sections**: Content grouped by areas such as History, Science in Islam, and Spiritual Growth.
-<img src="explore-1.png" alt="Explore Overview 1" width="400" />
-<img src="explore-2.png" alt="Explore Overview 2" width="400" />
-<img src="explore-3.png" alt="Explore Overview 3" width="400" />
+<table>
+  <tr>
+    <td><img src="explore-1.png" alt="Explore Overview 1" width="250" /></td>
+    <td><img src="explore-2.png" alt="Explore Overview 2" width="250" /></td>
+    <td><img src="explore-3.png" alt="Explore Overview 3" width="250" /></td>
+  </tr>
+</table>
 
 ### 2. Specialized Discovery Search
 An advanced search interface tailored for information gathering.
 - **Predictive Results**: Real-time suggestions as the user types.
 - **Resource Categorization**: Clearly separates results between Articles, Videos, and Feature Shortcuts.
-<img src="explore-search.png" alt="Explore Search Interface" width="400" />
+<img src="explore-search.png" alt="Explore Search Interface" width="250" />
 
 ## Research & Contemplation
 - **Knowledge Depth**: Positions Hira as an educational resource as much as a ritual companion.

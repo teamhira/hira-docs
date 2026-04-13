@@ -9,7 +9,7 @@ A clean, distraction-free interface for writing and reviewing personal notes.
 - **Entry List**: Chronological view of past reflections.
 - **Rich Content Support**: Ability to link reflections to specific Ayahs or Hadiths found within the app (where applicable).
 - **Mood/Spiritual Tonalities**: Optional tags to categorize entries based on the user's current spiritual state (e.g., Grateful, Seeking Strength, Reflective).
-<img src="journal.png" alt="Main Journal Dashboard" width="400" />
+<img src="journal.png" alt="Main Journal Dashboard" width="250" />
 
 ## Design Focus
 - **Privacy First**: Designed as a personal, non-social space to encourage honest self-reflection.

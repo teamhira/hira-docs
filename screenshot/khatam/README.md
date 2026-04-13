@@ -9,7 +9,7 @@ A visually intuitive dashboard for the Khatam journey.
 - **Reading Progress Bar**: Global percentage of the Quran completed.
 - **Timeline Estimation**: Based on current reading habits, the app predicts the completion date.
 - **Scheduled Reminders**: Ability to set daily targets (e.g., number of pages or ayahs per day) to reach the goal by a specific date.
-<img src="khatam.png" alt="Main Khatam Tracker" width="400" />
+<img src="khatam.png" alt="Main Khatam Tracker" width="250" />
 
 ## Personalization
 - **Flexible Goals**: Users can define their own Khatam duration (e.g., 30 days, 60 days, 1 year).

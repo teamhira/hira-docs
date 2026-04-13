@@ -9,7 +9,7 @@ A comprehensive dashboard that aggregates spiritual data into actionable insight
 - **Heatmaps & Trends**: Visual representation of "Streaks" or frequency of activities over weeks and months.
 - **Daily Checklists**: Integration with prayer times and Tasbih modules to automatically mark rituals as complete.
 - **Progressive Goals**: Comparisons between the user's current activity and their set spiritual targets.
-<img src="tracker.png" alt="Main Activity Tracker" width="400" />
+<img src="tracker.png" alt="Main Activity Tracker" width="250" />
 
 ## User Experience Design
 - **Objective Feedback**: Helps users identify their own patterns of consistency and areas for improvement.

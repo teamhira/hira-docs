@@ -8,13 +8,13 @@ The Hadith module provides a verified repository of the sayings and actions of t
 The entry point displays categorized collections from renowned scholars (e.g., Bukhari, Muslim).
 - **Collection Cards**: Summaries of each collection with the total number of Hadiths.
 - **Search**: Integrated search to find specific topics or narrators across all collections.
-<img src="hadith.png" alt="Hadith Dashboard" width="400" />
+<img src="hadith.png" alt="Hadith Dashboard" width="250" />
 
 ### 2. Hadith List View
 Navigation within a specific collection, often organized by chapters or books.
 - **Categorization**: Grouping by thematic books (e.g., Book of Faith, Book of Knowledge).
 - **Navigation**: Clean vertical scrolling through numbered Hadiths.
-<img src="hadith-list.png" alt="Hadith List" width="400" />
+<img src="hadith-list.png" alt="Hadith List" width="250" />
 
 ### 3. Hadith Detail View
 The dedicated view for reading and sharing a specific Hadith.
@@ -22,7 +22,7 @@ The dedicated view for reading and sharing a specific Hadith.
 - **Translation**: Accurate translations provided below the Arabic text.
 - **Metadata**: Display of the grade (e.g., Sahih, Hasan) and the chain of narrators (Isnad) where applicable.
 - **Actions**: One-tap sharing and bookmarking capabilities.
-<img src="hadith-detail.png" alt="Hadith Detail" width="400" />
+<img src="hadith-detail.png" alt="Hadith Detail" width="250" />
 
 ## Research & Verification
 - **Primary Sources**: Data is sourced from authentic Hadith databases.

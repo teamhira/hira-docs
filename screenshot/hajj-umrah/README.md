@@ -9,7 +9,7 @@ A centralized hub to select and manage the user's pilgrimage experience.
 - **Service Shortcuts**: Quick links to Hajj guides, Umrah guides, and specialized resources.
 - **Featured Packages or Content**: Curated information relevant to the current pilgrimage season.
 - **Ritual Overview**: High-level summaries of the core differences and requirements for both Hajj and Umrah.
-<img src="hajj-umrah.png" alt="Main Hajj & Umrah Dashboard" width="400" />
+<img src="hajj-umrah.png" alt="Main Hajj & Umrah Dashboard" width="250" />
 
 ## Educational Content
 - **Step-by-Step Interactive Guides**: Visual and text-based instructions for every ritual.

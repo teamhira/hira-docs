@@ -9,7 +9,7 @@ A dual-calendar interface that ensures connectivity between secular and religiou
 - **Holy Day Highlights**: Automatic marking of significant Islamic events (e.g., Eid al-Fitr, Ashura, Laylat al-Qadr).
 - **Personal Event Tracking**: Ability for users to add their own religious goals or milestones to specific dates.
 - **Sun/Moon Phases**: Integrated visualization of the Islamic month progression.
-<img src="calendar.png" alt="Main Integrated Calendar" width="400" />
+<img src="calendar.png" alt="Main Integrated Calendar" width="250" />
 
 ## Planning & Awareness
 - **Upcoming Reminders**: Notifies users of approaching holy days to allow for spiritual and logistical preparation.

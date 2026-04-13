@@ -10,7 +10,7 @@ A highly functional dashboard designed for rapid information retrieval.
 - **Daily Schedule**: Complete list of the day's timings (Fajr, Sunrise, Dhuhr, Asr, Maghrib, Isha).
 - **Location Awareness**: Automatic updates based on GPS or manual city selection.
 - **Customization Sheets**: Options to adjust calculation methods (e.g., Muslim World League, ISNA) and madhab-specific timings.
-<img src="prayer-times.png" alt="Main Prayer Schedule" width="400" />
+<img src="prayer-times.png" alt="Main Prayer Schedule" width="250" />
 
 ## Functional Logic
 - **Precision**: Uses globally recognized calculation algorithms.
