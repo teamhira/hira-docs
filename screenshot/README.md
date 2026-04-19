@@ -7,7 +7,7 @@ This directory contains a comprehensive collection of screenshots and UI/UX docu
 ## 🕋 Core Spiritual Features
 | Feature | Screenshot Inventory (Click to View) | Documentation |
 | :--- | :--- | :--- |
-| **Quran** | [`quran-surah-list.png`](quran/quran-surah-list.png), [`quran-search.png`](quran/quran-search.png), [`quran-mushaf.png`](quran/quran-surah-detail-mushaf-view.png), [`quran-audio.png`](quran/quran-surah-detail-audio.png), [`quran-juz.png`](quran/quran-juz.png), [`quran-topic.png`](quran/quran-topic.png) | [View Details](quran/README.md) |
+| **Quran** | [`quran-surah-list.png`](quran/quran-surah-list.png), [`quran-search.png`](quran/quran-search.png), [`quran-mushaf.png`](quran/quran-surah-detail-mushaf-view.png), [`quran-audio.png`](quran/quran-surah-detail-audio.png), [`quran-juz-list.png`](quran/quran-juz-list.png), [`quran-topic.png`](quran/quran-topic.png) | [View Details](quran/README.md) |
 | **Prayer Times** | [`prayer-times.png`](prayer-times/prayer-times.png) | [View Details](prayer-times/README.md) |
 | **Qibla** | [`qibla.png`](qibla/qibla.png), [`qibla-map-extend.png`](qibla/qibla-map-extend.png) | [View Details](qibla/README.md) |
 | **Dua** | [`dua.png`](dua/dua.png), [`dua-list.png`](dua/dua-list.png), [`dua-detail.png`](dua/dua-detail.png) | [View Details](dua/README.md) |
@@ -26,8 +26,8 @@ This directory contains a comprehensive collection of screenshots and UI/UX docu
 ## 🤝 Community & Utility
 | Feature | Screenshot Inventory (Click to View) | Documentation |
 | :--- | :--- | :--- |
-| **Mosques** | [`mosques-1.png`](mosques/mosques-1.png), [`mosques-2.png`](mosques/mosques-2.png) | [View Details](mosques/README.md) |
-| **Halal** | [`halal-food.png`](halal/halal-food.png), [`halal-food-barcode.png`](halal/halal-food-barcode.png), [`halal-place.png`](halal/halal-place.png) | [View Details](halal/README.md) |
+| **Mosques** | [`mosques.png`](mosques/mosques.png), [`mosques-detail.png`](mosques/mosques-detail.png) | [View Details](mosques/README.md) |
+| **Halal** | [`halal-food.png`](halal/halal-food.png), [`halal-food-bardcode.png`](halal/halal-food-bardcode.png), [`halal-place.png`](halal/halal-place.png) | [View Details](halal/README.md) |
 | **Zakat** | [`zakat-fitrah.png`](zakat/zakat-fitrah.png), [`zakat-profession.png`](zakat/zakat-profession.png), [`zakat-gold-silver.png`](zakat/zakat-gold-silver.png), [`zakat-savings.png`](zakat/zakat-savings.png) | [View Details](zakat/README.md) |
 | **Sadaqah** | [`sadaqah.png`](sadaqah/sadaqah.png), [`sadaqah-campaign.png`](sadaqah/sadaqah-campaign.png), [`sadaqah-physical-1.png`](sadaqah/sadaqah-physical-1.png) | [View Details](sadaqah/README.md) |
 | **Charity** | [`charity-1.png`](charity/charity-1.png), [`charity-2.png`](charity/charity-2.png), [`charity-search.png`](charity/charity-search.png) | [View Details](charity/README.md) |
@@ -47,7 +47,7 @@ This directory contains a comprehensive collection of screenshots and UI/UX docu
 | :--- | :--- | :--- |
 | **Onboarding** | [`onboarding-landing.png`](onboarding/onboarding-landing.png), [`onboarding-quran.png`](onboarding/onboarding-quran.png), [`onboarding-final.png`](onboarding/onboarding-final.png) | [View Details](onboarding/README.md) |
 | **Splash** | [`splash.png`](splash/splash.png), [`launch.png`](splash/launch.png) | [View Details](splash/README.md) |
-| **Auth** | [`login.png`](auth/login.png), [`register.png`](auth/register.png), [`forgot-password.png`](auth/forgot-password.png) | [View Details](auth/README.md) |
+| **Auth** | [`login.png`](auth/login.png) | [View Details](auth/README.md) |
 | **Profile** | [`profile.png`](profile/profile.png), [`edit-profile.png`](profile/edit-profile.png), [`app-theme.png`](profile/app-theme.png) | [View Details](profile/README.md) |
 | **Calendar** | [`calendar.png`](calendar/calendar.png) | [View Details](calendar/README.md) |
 
@@ -56,11 +56,14 @@ This directory contains a comprehensive collection of screenshots and UI/UX docu
 ## 📂 Exhaustive File List
 | Feature | Complete Gallery (Internal Paths) |
 | :--- | :--- |
-| **Quran** | [`quran-surah-detail-mushaf-view.png`](quran/quran-surah-detail-mushaf-view.png), [`quran-juz-surah-list.png`](quran/quran-juz-surah-list.png), [`quran-surah-list.png`](quran/quran-surah-list.png), [`quran-surah-detail-audio.png`](quran/quran-surah-detail-audio.png), [`quran-juz.png`](quran/quran-juz.png), [`quran-topic.png`](quran/quran-topic.png), [`quran-surah-detail.png`](quran/quran-surah-detail.png), [`quran-history.png`](quran/quran-history.png), [`quran-bookmark.png`](quran/quran-bookmark.png), [`quran-daily.png`](quran/quran-daily.png), [`quran-search.png`](quran/quran-search.png), [`quran-surah-information.png`](quran/quran-surah-information.png), [`quran-surah-detail-ayah-options.png`](quran/quran-surah-detail-ayah-options.png), [`quran-surah-detail-audio-expand.png`](quran/quran-surah-detail-audio-expand.png) |
+| **Quran** | [`quran-surah-detail-mushaf-view.png`](quran/quran-surah-detail-mushaf-view.png), [`quran-juz-surah-list.png`](quran/quran-juz-surah-list.png), [`quran-surah-list.png`](quran/quran-surah-list.png), [`quran-surah-detail-audio.png`](quran/quran-surah-detail-audio.png), [`quran-juz-list.png`](quran/quran-juz-list.png), [`quran-topic.png`](quran/quran-topic.png), [`quran-surah-detail.png`](quran/quran-surah-detail.png), [`quran-history-list.png`](quran/quran-history-list.png), [`quran-bookmark-list.png`](quran/quran-bookmark-list.png), [`quran-daily.png`](quran/quran-daily.png), [`quran-search.png`](quran/quran-search.png), [`quran-surah-information.png`](quran/quran-surah-information.png), [`quran-surah-detail-ayah-options.png`](quran/quran-surah-detail-ayah-options.png), [`quran-surah-detail-audio-expand.png`](quran/quran-surah-detail-audio-expand.png) |
+| **Mosques** | [`mosques.png`](mosques/mosques.png), [`mosques-detail.png`](mosques/mosques-detail.png), [`mosques-expand.png`](mosques/mosques-expand.png) |
+| **Halal** | [`halal-food.png`](halal/halal-food.png), [`halal-food-detail.png`](halal/halal-food-detail.png), [`halal-food-bardcode.png`](halal/halal-food-bardcode.png), [`halal-food-ar.png`](halal/halal-food-ar.png), [`halal-place.png`](halal/halal-place.png), [`halal-place-detail.png`](halal/halal-place-detail.png) |
 | **Hijrah** | [`hijrah-dashboard-1.png`](hijrah/hijrah-dashboard-1.png), [`hijrah-dashboard-2.png`](hijrah/hijrah-dashboard-2.png), [`hijrah-dashboard-pemula.png`](hijrah/hijrah-dashboard-pemula.png), [`hijrah-mission-quiz.png`](hijrah/hijrah-mission-quiz.png), [`hijrah-mission-video.png`](hijrah/hijrah-mission-video.png), [`hijrah-mission-knowledge.png`](hijrah/hijrah-mission-knowledge.png), [`hijrah-mission-timer-pemula.png`](hijrah/hijrah-mission-timer-pemula.png), [`hijrah-achievement-list.png`](hijrah/hijrah-achievement-list.png), [`hijrah-achievement-detail-1.png`](hijrah/hijrah-achievement-detail-1.png), [`hijrah-step-1.png`](hijrah/hijrah-step-1.png), [`hijrah-step-2.png`](hijrah/hijrah-step-2.png), [`hijrah-step-3.png`](hijrah/hijrah-step-3.png), [`hijrah-step-4.png`](hijrah/hijrah-step-4.png) |
 | **Zakat** | [`zakat-1.png`](zakat/zakat-1.png), [`zakat-2.png`](zakat/zakat-2.png), [`zakat-fitrah.png`](zakat/zakat-fitrah.png), [`zakat-profession.png`](zakat/zakat-profession.png), [`zakat-gold-silver.png`](zakat/zakat-gold-silver.png), [`zakat-savings.png`](zakat/zakat-savings.png), [`zakat-trade.png`](zakat/zakat-trade.png), [`zakat-agriculture.png`](zakat/zakat-agriculture.png), [`zakat-livestock.png`](zakat/zakat-livestock.png), [`zakat-mining-rikaz.png`](zakat/zakat-mining-rikaz.png), [`zakat-information-1.png`](zakat/zakat-information-1.png), [`zakat-information-2.png`](zakat/zakat-information-2.png) |
 | **Tasbih** | [`tasbih-dzikir-daily.png`](tasbih/tasbih-dzikir-daily.png), [`tasbih-dzikir-all.png`](tasbih/tasbih-dzikir-all.png), [`tasbih-dzikir-all-check.png`](tasbih/tasbih-dzikir-all-check.png), [`tasbih-dzikir-check-list.png`](tasbih/tasbih-dzikir-check-list.png), [`tasbih-dzikir-check-success.png`](tasbih/tasbih-dzikir-check-success.png), [`tasbih-dzikir-with-check.png`](tasbih/tasbih-dzikir-with-check.png) |
 | **Home** | [`home-1.png`](home/home-1.png), [`home-2.png`](home/home-2.png), [`home-search-1.png`](home/home-search-1.png), [`home-search-2.png`](home/home-search-2.png), [`features-more-1.png`](home/features-more-1.png), [`features-more-2.png`](home/features-more-2.png), [`features-more-3.png`](home/features-more-3.png), [`features-more-edit.png`](home/features-more-edit.png) |
+| **Auth** | [`login.png`](auth/login.png) |
 
 > [!TIP]
 > Click any filename to open the high-resolution screenshot directly in your browser or editor.

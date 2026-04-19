@@ -12,8 +12,8 @@ The initial screen serves as the launchpad for Quran study.
 <table>
   <tr>
     <td><img src="quran-surah-list.png" alt="Quran Discovery Display" width="250" /></td>
-    <td><img src="quran-history.png" alt="Quran History/Bookmarks" width="250" /></td>
-    <td><img src="quran-bookmark.png" alt="Quran Bookmark Details" width="250" /></td>
+    <td><img src="quran-history-list.png" alt="Quran History/Bookmarks" width="250" /></td>
+    <td><img src="quran-bookmark-list.png" alt="Quran Bookmark Details" width="250" /></td>
   </tr>
   <tr>
     <td><img src="quran-search.png" alt="Global Search" width="250" /></td>
@@ -29,7 +29,7 @@ Users can navigate the Quran through traditional structures.
 - **Topic Search**: Search ayahs based on thematic categories (e.g., Patience, Faith).
 <table>
   <tr>
-    <td><img src="quran-juz.png" alt="Juz Category View" width="250" /></td>
+    <td><img src="quran-juz-list.png" alt="Juz Category View" width="250" /></td>
     <td><img src="quran-juz-surah-list.png" alt="Surah List Categories" width="250" /></td>
     <td><img src="quran-topic.png" alt="Topic Categorization" width="250" /></td>
   </tr>

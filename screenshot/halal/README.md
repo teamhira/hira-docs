@@ -19,13 +19,23 @@ A specialized AR-compatible interface for real-time product verification.
 Detailed breakdowns of scanned or searched food products.
 - **Halal Status Badge**: Clear, color-coded indicators (Green for Halal, Red for Haram).
 - **Ingredient Breakdown**: Analysis of potentially doubtful ingredients (Mashbooh).
-<img src="halal-food.png" alt="Product Details View" width="250" />
+<table>
+  <tr>
+    <td><img src="halal-food.png" alt="Product Summary View" width="250" /></td>
+    <td><img src="halal-food-detail.png" alt="Product Details Discovery" width="250" /></td>
+  </tr>
+</table>
 
 ### 3. Halal Places Discovery
 A localized search tool for finding Halal-certified or Muslim-friendly dining.
 - **Distance-Sorted List**: Highlights restaurants, cafes, and markets near the user's location.
 - **Certification Badges**: Displays the specific Halal authority that certified the establishment.
-<img src="halal-place.png" alt="Halal Places Discovery" width="250" />
+<table>
+  <tr>
+    <td><img src="halal-place.png" alt="Halal Places Discovery" width="250" /></td>
+    <td><img src="halal-place-detail.png" alt="Place Details View" width="250" /></td>
+  </tr>
+</table>
 
 ## Functional Value
 - **Doubt Management**: Helps users navigate complex global food markets with confidence.

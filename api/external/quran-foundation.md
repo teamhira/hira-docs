@@ -1,95 +1,78 @@
-# Quran Foundation API (v4) Integration
+# Quran Foundation Integration Specification
 
-This document details the external API endpoints provided by the [Quran Foundation](https://quran.foundation/docs) and used within the Hira application to source Quranic text, translations, and audio assets.
-
-**Base URL**: `https://apis.quran.foundation/content/api/v4`
+This document details the active integration between Hira and the Quran Foundation ecosystem, focusing exclusively on the services and endpoints utilized in the core application.
 
 ---
 
-## 1. Core Quran Content
+## 1. Network Architecture
 
-### List All Chapters (Surahs)
-Fetches the metadata for all 114 Surahs.
-- **Endpoint**: `GET /chapters`
-- **Used in**: [`SurahListView.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/SurahListView.swift)
-- **Query Parameters**:
-  - `language` (string): ISO code (e.g., `en`, `id`) to localize chapter names.
+Hira routes requests through two secondary base URLs managed by [`FoundationClient`](../../Hira/Shared/Data/Network/FoundationClient.swift):
 
-### Chapter Information
-Retrieves historical background and revelation context.
-- **Endpoint**: `GET /chapters/{chapter_id}/info`
-- **Used in**: [`SurahInfoSheet.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/SurahInfoSheet.swift)
-- **Query Parameters**:
-  - `language` (string): Localization for the info text.
+| Service | Base URL | Usage |
+| :--- | :--- | :--- |
+| **Content v4** | `https://apis.quran.foundation/content/api/v4` | Public scriptures, audio manifest, and resource lists. |
+| **User Data v1** | `https://apis.quran.foundation/auth` | Synchronized bookmarks, activity, and progress. |
 
-### Verses by Chapter
-Fetches verses for a specific chapter. Used for the primary reading list.
-- **Endpoint**: `GET /verses/by_chapter/{chapter_id}`
-- **Used in**: [`QuranAyahListView.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/QuranAyahListView.swift)
-- **Query Parameters**:
-  - `language` (string): General content language.
-  - `words` (boolean): `true` to include word-by-word data (required for Tajweed and Word-Audio).
-  - `translations` (int array): IDs of the translations to include (e.g., `85` for Abdel Haleem).
-  - `audio` (int): ID of the reciter for verse-level audio association.
-  - `page` (int): Page number (defaults to 1).
-  - `per_page` (int): Number of verses (Hira typically uses `300` to fetch whole chapters).
-
-### Verses by Page (Mushaf Mode)
-Fetches verses that appear on a specific physical page of the Madinah Mushaf.
-- **Endpoint**: `GET /verses/by_page/{page_number}`
-- **Used in**: [`QuranMushafView.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/QuranMushafView.swift)
-- **Query Parameters**: Same as *Verses by Chapter*.
+### Global Headers
+All authenticated requests (User Data v1) automatically include:
+- `Authorization: Bearer [TOKEN]`
+- `x-auth-token: [TOKEN]`
+- `x-client-id: [CLIENT_ID]`
+- `x-timezone: [TIMEZONE]` (Required for correct activity-day day calculation)
 
 ---
 
-## 2. Structural Navigation
+## 2. API Reference (Core Content v4)
 
-### List All Juzs
-Provides the mapping of the 30 Juz divisions.
-- **Endpoint**: `GET /juzs`
-- **Used in**: [`QuranJuzListView.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/QuranJuzListView.swift)
+### 📖 Reading & Resources
+| Endpoint | Method | Description | Key Parameters |
+| :--- | :--- | :--- | :--- |
+| `/chapters` | `GET` | Fetch all 114 Surahs. | `language` |
+| `/chapters/{id}/info` | `GET` | Historical context of a Surah. | `language` |
+| `/verses/by_chapter/{id}` | `GET` | Main reading content for a Surah. | `words=true`, `translations`, `audio`, `per_page=300` |
+| `/verses/by_page/{page}` | `GET` | Verses appearing on a specific Mushaf page. | `words=true`, `translations` |
+| `/juzs` | `GET` | Metadata for the 30 structural divisions. | N/A |
+| `/resources/recitations` | `GET` | List of available reciters. | `language` |
+| `/resources/translations` | `GET` | List of available translation resources. | `language` |
+| `/resources/tafsirs` | `GET` | List of available tafsir resources. | `language` |
 
----
-
-## 3. Resource & Settings Discovery
-
-### Available Languages
-Populates the language selection interface for documentation and UI.
-- **Endpoint**: `GET /resources/languages`
-- **Used in**: [`QuranLanguageSelector.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/QuranLanguageSelector.swift)
-
-### Translation Resources
-Lists available translations for a given language.
-- **Endpoint**: `GET /resources/translations`
-- **Query Parameters**:
-  - `language` (string): Filter translations by language.
-
-### Tafsir Resources
-Lists available exegesis resources.
-- **Endpoint**: `GET /resources/tafsirs`
-- **Query Parameters**:
-  - `language` (string): Filter tafsirs by language.
-
-### Recitation Resources
-Lists available world-renowned reciters.
-- **Endpoint**: `GET /resources/recitations`
-- **Used in**: [`QuranResourceSelector.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/Views/Subviews/QuranResourceSelector.swift)
+### 🎵 Audio & Timestamps
+| Endpoint | Method | Description | Key Parameters |
+| :--- | :--- | :--- | :--- |
+| `/chapters/{id}/audio_files` | `GET` | Audio manifest for a specific surah. | `recitation_id`, `segments=true` (for timestamps) |
 
 ---
 
-## 4. Audio & Precision Timing
+## 3. API Reference (User Data v1)
 
-### Chapter Audio Files
-Retrieves audio manifest with precise word-level and verse-level timestamps.
-- **Endpoint**: `GET /chapters/{chapter_id}/audio_files`
-- **Used in**: [`QuranViewModel.swift`](https://github.com/teamhira/hira-swiftui/blob/quran-foundation/Apps/iOSApp/Features/Quran/QuranViewModel.swift) (Auto-scroll/Teleprompter logic).
-- **Query Parameters**:
-  - `recitation_id` (int): The selected reciter's ID.
-  - `segments` (boolean): `true` to include word-level timing (essential for word-level highlighting).
+### 🏷️ Bookmarks & Last Read
+| Endpoint | Method | Description | Payload / Params |
+| :--- | :--- | :--- | :--- |
+| `/v1/bookmarks` | `GET` | Fetch user's synchronized bookmarks. | `mushafId`, `first`, `after` |
+| `/v1/bookmarks` | `POST` | Create a bookmark or "Last Read" position. | `type`, `key`, `verseNumber`, `isReading`, `mushafId` |
+| `/v1/bookmarks/{id}` | `DELETE` | Permanently remove a specific bookmark. | Path Variable: `id` |
+| `/v1/bookmarks/ayahs-range`| `GET` | Check bookmark status for a range of ayahs. | `chapterNumber`, `rangeStartAyahNumber`, `rangeEndAyahNumber` |
+
+### ⚡ Tracking & Progress
+| Endpoint | Method | Description | Payload / Params |
+| :--- | :--- | :--- | :--- |
+| `/v1/reading-sessions`| `GET` | Fetch user reading session history. | `first`, `after` |
+| `/v1/reading-sessions`| `POST` | Log active reading presence. | `chapterNumber`, `verseNumber` |
+| `/v1/activity-days` | `GET` | Fetch historical activity and heat-map data. | `from`, `to`, `type="QURAN"` |
+| `/v1/activity-days` | `POST` | Post incremental reading time and ranges. | `type`, `seconds`, `ranges` (JSON Array), `mushafId`, `date` |
 
 ---
 
-## Summary of Usage Logic
-1. **Initial Load**: App calls `/chapters` to build the navigation list.
-2. **Reading View**: Calls `/verses/by_chapter` or `/verses/by_page` with `words=true` to enable Tajweed rendering.
-3. **Teleprompter**: Calls `/audio_files?segments=true` to calculate scroll duration per verse based on `timestamp_from` and `timestamp_to`.
+## 4. Technical Implementation Constants
+
+- **Range Limit**: Individual `ayahs-range` checks must not exceed **30 ayahs**. Repository handles chunking automatically.
+- **Reading Session Debounce**: Tracking begins after **15 seconds**; updates are posted with a **2 second** debounce.
+- **Activity Persistence**: `ranges` post payload must be a **JSON Array of Strings** (e.g., `["1:1-1:7"]`).
+- **Timezone Header**: `x-timezone` is mandatory for `/v1/activity-days` to maintain accurate streaks.
+
+---
+
+## Reference Map
+- **Networking Core**: [`FoundationClient.swift`](../../Hira/Shared/Data/Network/FoundationClient.swift)
+- **Endpoints Logic**: [`FoundationEndpoints.swift`](../../Hira/Shared/Core/Constants/FoundationEndpoints.swift)
+- **ViewModel Orchestration**: [`QuranViewModel.swift`](../../Hira/Apps/iOSApp/Features/Quran/QuranViewModel.swift)
