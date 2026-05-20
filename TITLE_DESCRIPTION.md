@@ -1,0 +1,31 @@
+# Hira Showcase: Feature Titles & Descriptions
+*Optimized for Video Shorts, Social Media, and Presentations*
+
+| Feature | Title | Impact Description | Video Access |
+| :--- | :--- | :--- | :--- |
+| 🚀 **Onboarding & Core** | Showcase: Getting Started with Hira | A seamless journey from introduction to secure ecosystem access, putting spiritual tools at your fingertips. | [Watch Short](https://youtube.com/shorts/1azxc6B2zEU) |
+| 📖 **Quran Hub** | Showcase: World-Class Quran Experience | Traditional Mushaf aesthetics meets modern precision tools. A sanctuary for reading and listening. | • [Part 1](https://youtube.com/shorts/9e7EB91z0Hs) <br> • [Part 2](https://youtube.com/shorts/s9goUSjx18c) <br> • [Part 3](https://youtube.com/shorts/v3gyEOLXLWw) <br> • [Part 4](https://youtube.com/shorts/mRGI2WYNetA) <br> • [Part 5](https://youtube.com/shorts/5LJxx1fcN9U) <br> • [Part 6](https://youtube.com/shorts/FLfhkuGNvWc) <br> • [Part 7](https://youtube.com/shorts/jqt-WfElYEI) |
+| 🤖 **AI Assistant** | Showcase: 24/7 AI Islamic Assistant | Intelligent guidance answering your questions with deep contextual knowledge from verified sources. | [Watch Short](https://youtube.com/shorts/j7hWyxJhl4I) |
+| 🧭 **Explore & Growth** | Showcase: Discover Your Path | A dynamic journey of discovery, combining curated spiritual content with a gamified progression system. | • [Part 1](https://youtube.com/shorts/WoJXzeQzEFc) <br> • [Part 2](https://youtube.com/shorts/q2AyKiwvbPc) <br> • [Part 3](https://youtube.com/shorts/dAZhauOms7c) <br> • [Part 4](https://youtube.com/shorts/B9Nr8p5jYLc) |
+| ⌚ **Prayer Times** | Showcase: Precision Prayer Times | Highly accurate timings with clear countdowns and notifications to ensure you never miss a prayer. | [Watch Short](https://youtube.com/shorts/SVaiLNHFzgY) |
+| 🏆 **Achievements** | Showcase: Celebrating Milestones | Visual records of your spiritual successes, encouraging consistency through a collection of exclusive badges. | [Watch Short](https://youtube.com/shorts/dd57dr8HkbE) |
+| 🥗 **Halal Scanner** | Showcase: Halal Lifestyle Guide | Verify food products via AR scanning and discover nearby certified dining locations with ease. | [Watch Short](https://youtube.com/shorts/yv-zjprnjQg) |
+| 💰 **Zakat Calculator** | Showcase: Precision in Obligation | specialized calculators for all wealth types to ensure your Zakat is calculated accurately and easily. | [Watch Short](https://youtube.com/shorts/XhaVjaysGvA) |
+| 📿 **Tasbih Digital** | Showcase: Focused Dhikr Companion | A minimalist interface with haptic feedback to maintain your remembrance of Allah anywhere. | [Watch Short](https://youtube.com/shorts/QTb1fiOatJA) |
+| 📊 **Spiritual Tracker** | Showcase: Personal Analytics | Gain insights into your consistency with heatmaps and trends covering your spiritual habits. | [Watch Short](https://youtube.com/shorts/jcr8oXP9zcc) |
+| 🏁 **Khatam Tracker** | Showcase: Quran Completion Goals | Achieve your Quran completion goals with flexible scheduling and detailed progress visualization. | [Watch Short](https://youtube.com/shorts/b-GHpp8LWJU) |
+| 📚 **Hadith Hub** | Showcase: Authentic Hadith Library | Study thousands of verified sayings of the Prophet (PBUH) from renowned scholarly collections. | [Watch Short](https://youtube.com/shorts/-WVaJjJWyp8) |
+| 🤲 **Dua Library** | Showcase: Comprehensive Supplications | A sanctuary of daily Duas for every occasion, complete with transliterations and audio support. | [Watch Short](https://youtube.com/shorts/A7QJeK5Defo) |
+| 🕋 **Hajj & Umrah** | Showcase: Pilgrimage Roadmap | Step-by-step guidance for Hajj and Umrah rituals, including Fiqh rulings and logistics. | [Watch Short](https://youtube.com/shorts/W-Hwcq4NI2Q) |
+| 🚶 **Hajj Journey** | Showcase: Step-by-Step Roadmap | A detailed visual tracking system to record your progress during the sacred Hajj pilgrimage. | [Watch Short](https://youtube.com/shorts/7PZ6LmGED28) |
+| 🎙️ **Tarteel Lesson** | Showcase: Perfect Your Recitation | Utilize advanced audio analysis to refine your pronunciation and rhythmic Quranic recitation. | [Watch Short](https://youtube.com/shorts/N1GL02D40vI) |
+| 🌙 **Deen Mode** | Showcase: Distraction-Free Focus | A specialized interface designed to minimize digital noise, creating a peaceful environment for worship. | [Watch Short](https://youtube.com/shorts/hf4dAyy5yRo) |
+| 🕌 **Mosque Finder** | Showcase: Locate Nearby Worship | Navigate to the nearest mosques with detailed information on facilities and community reviews. | [Watch Short](https://youtube.com/shorts/KEH6f3j238E) |
+| ❤️ **Charity** | Showcase: Impact Campaigns | Discover and support high-impact global humanitarian causes with real-time goal tracking. | [Watch Short](https://youtube.com/shorts/fR7XNxLverE) |
+| 🎁 **Sadaqah** | Showcase: Personal Giving | Explore multiple ways to give, from digital micro-donations to physical goods and rituals. | [Watch Short](https://youtube.com/shorts/nNWz4X5u3dk) |
+| 📰 **Articles** | Showcase: Depth of Knowledge | Long-form content on history, theology, and contemporary issues in a beautiful, readable format. | [Watch Short](https://youtube.com/shorts/H8VB8CsIIfE) |
+| 👤 **Profile & Personal** | Showcase: Personalized Experience | Full control over your data, security configurations, and app-wide preferences for a tailored feel. | [Watch Short](https://youtube.com/shorts/2NTWu3nLTvY) |
+| ✍️ **Spiritual Journal** | Showcase: Private Reflection Space | Record your thoughts, gratitude, and growth milestones in a secure and contemplative space. | [Watch Short](https://youtube.com/shorts/mpWQ15WfSTE) |
+| 🧭 **Qibla Finder** | Showcase: Smart Qibla Guidance | Precise directional guidance using device sensors and AR to ensure you are aligned with the Kaaba. | [Watch Short](https://youtube.com/shorts/Lr3MXA9hCzM) |
+| 🗓️ **Calendar** | Showcase: Integrated Holy Days | A dual-calendar interface for tracking Islamic holy days alongside your personal religious schedule. | [Watch Short](https://youtube.com/shorts/hcpJsrhNGR0) |
+| 🛠️ **Launcher Settings** | Showcase: Tailored Feature Access | Customize your dashboard by selecting and reordering the services that matter most to you. | [Watch Short](https://youtube.com/shorts/rI-j_wbfwS8) |
